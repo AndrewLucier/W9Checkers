@@ -1,0 +1,30 @@
+/* styles for the board */
+#divCheckers{
+    width: 400px; /* set the width of the chessboard */
+    height: 400px; /* set the height of the chessboard */
+    border: 1px solid black; /* add a border around the outside of the chessboard */
+}
+
+/* styles for the checkers squares */
+.checkersSquare{
+    float: left; /* align the squares next to each other */
+    width: 50px; /* set the width of each square */
+    height: 50px; /* set the height od each square */
+    background-color: white;
+}
+
+.checkerPiece{
+    width: 45px;
+    height: 45px;
+    margin: 2.5px;
+    border-radius: 50%; /* make the pieces roundy */
+    box-shadow: 4px 4px 4px gray;
+}
+
+.checkerPiece-w{
+    background-color: ivory;
+}
+
+.checkerPiece-b{
+    background-color: rgb(66, 66, 66);
+}

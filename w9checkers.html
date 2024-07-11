@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W9 Checkers</title>
+    <link rel="stylesheet" href="checkers.css">
+</head>
+<body>
+    <header>
+        <h1>Here is our cool checkers board.</h1>
+    </header>
+    <main>
+        <!-- This is where we will add the checkers board through JavaScript code -->
+        <div id="divCheckers">
+        </div>
+        <span id="selectedSquare" style="display: none;"></span>
+    </main>
+
+    <script src="checkers.js"></script>
+
+    <script>
+        // set up the nickname/shortcut to the div where the chessboard should go
+        var checkersBoard = document.getElementById("divCheckers");
+        // call the function to create the checkers board
+        createCheckersBoard(checkersBoard);
+    </script>
+</body>
+</html>
